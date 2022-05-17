@@ -1,9 +1,13 @@
+body, html {
+    font-family: 'Amazon Ember';
+}
 .container {
     display: flex;
     flex-direction: column;
     /* align-content: flex-star; */
     /* justify-content: center; */
-    border-style: solid; (lightgrey);
+    border-style: solid;
+    border-color: grey;
     align-content: space-between;
     
 }
@@ -26,9 +30,12 @@ button{
 }
 .button1{
     background-color:lightgray;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .button1{
     text-align: center;
+    
 }
 
 .footer{
@@ -42,6 +49,11 @@ button{
     align-items:
 
 } */
+
+.label{
+    padding-left: 30px;
+    color: grey;
+}
 
 #footer1{
     display: flex;
@@ -59,29 +71,36 @@ button{
     /* justify-content: space-between; */
 }
 
-.line {
-   padding-left: none;
-  padding-right: none;
-}
+
 
 .continue{
     display: flex;
     flex-shrink: 100;
     justify-content: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .fgps{
     display: flex;
     flex-direction: row-reverse;
     padding-left: 110px;
-    padding-right: 0px;
+    padding-right: 15px;
 }
-
+#email-space{
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.email-boarders{
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .label {
     display: flex;
-    
-    
-   
+    padding-bottom: 15px;
 }
+
 .move{
     display: flex;
     flex-direction: column;
@@ -92,3 +111,7 @@ button{
     justify-content: center;
 }
 
+.password-boarders{
+    margin-left: 15px;
+    margin-right: 15px;
+}
